@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(11, 50px);
+    grid-template-rows: repeat(11, 50px);
+}
+
+.square {
+    border: 2px solid;
+    height: 50px;
+    width:50px;
+}
+
+.gameOver {
+    color: red;
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+}
